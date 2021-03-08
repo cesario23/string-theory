@@ -1,14 +1,100 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+function xify (str){
+let newstr = "";
+  for (let char of str){
+   char =  "x";
+   newstr += char
+  }
+    return newstr;
+}
+
+function yellingChars (str){
+  let output = "";
+  for ( let letter of str){
+   letter = letter + "!";
+  output += letter;
+  }
+  return output;
+}
+
+function indexedChars (str){
+  let addIndex = '';
+  for (let i = 0; i < str.length ; i++) {
+   const  char = str [i];
+    addindex += char;
+  }
+  return addIndex;
+}
+
+function numberedChars (str){
+
+}
+function exclaim (str){
+let output = "";
+for (let char of str){
+ if (char === '.' && char === '?'){
+  char = "!";
+  output += char;
+ }
+ return output;
+}
+}
+function repeatIt (str, n){
+let repeatStr = '';
+let numOfRepetition = n;
+for (let i = 0; i < n; i++){
+  repeatStr += str;
+ }
+return repeatStr;
+}
 
 
+function truncate (str){
+
+}
+
+function ciEmailify (str){
+let email = '';
+for (let fullname of str){
+  fullname = str + '@codeimmersives.com';
+  email += fullname;
+}
+return email;
+}
 
 
+function reverse (str){
+ let output = '';
+ for (let i = str.length -1; i <= 0; i--){
+output += str;
+}
+return output;
+}
 
+function onlyVowels (str){
+  let newstr = '';
+  for (const char of str){
+    if (char === 'a' || char === "e" || char === "i" || char === 'o' || char === 'u'){
+    newstr += char
+    }
+    return newstr;
+  }
 
+}
+function crazyCase (str){
+let 
+}
+function titleCase(){
 
+}
+function camelCase(){
 
+}
+function crazyCase2ReturnOfCrazyCase (){
+
+}
  /********************************************
  * CODE DOWN HERE IS FOR INTERNAL USE ONLY. *
  *           PLEASE DON'T TOUCH!            *
